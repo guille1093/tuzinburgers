@@ -1,0 +1,35 @@
+---
+
+---
+
+<!doctype html>
+<html lang="es" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/images/logo.jpg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content={Astro.generator} />
+        <title>Tuzin's Burgers</title>
+        <meta name="description" content="Tuzin's Burgers" />
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet" />
+
+        <link href="css/tooplate-crispy-kitchen.css" rel="stylesheet" />
+    </head>
+    <body>
+        <slot />
+        <script src="../../public/js/jquery.min.js"></script>
+        <script src="../../public/js/bootstrap.bundle.min.js"></script>
+        <script src="../../public/js/custom.js"></script>
+    </body>
+</html>
